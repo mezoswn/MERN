@@ -58,3 +58,4 @@ const PairProgramming = new effect("Pair Programming	" , 3 ,	"increase target's 
 PairProgramming.PairProgramming(redNinja);
 
 redNinja.attack(BlackBeltNinja); 
+console.log (BlackBeltNinja);
