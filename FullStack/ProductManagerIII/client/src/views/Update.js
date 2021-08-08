@@ -15,7 +15,7 @@ const Update = () => {
             setPrice(res.data.price)
             setDescription(res.data.description)
         })
-    }, [])
+    }, [id])
     const updateProduct = (e) => {
         e.preventDefault()
         axios
